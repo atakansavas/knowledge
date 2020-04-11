@@ -1,5 +1,5 @@
 import axios from 'axios';
-import RequestDto from '../models/system/ResponseDto';
+import RequestDto from '../models/system/RequestDto';
 import ResponseDto from '../models/system/ResponseDto';
 
 class RequestHelper {
