@@ -3,6 +3,7 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Routes from "../../routes/Routes";
 const { Content } = Layout;
 
 
@@ -11,6 +12,9 @@ export default () => {
     return (
         <>
             <Header WhiteHeader={false} />
+
+            <Routes />
+
             {/* <Content style={{ padding: '0 50px' }}>
                 <Breadcrumb style={{ margin: '16px 0' }}>
                     <Breadcrumb.Item>Home</Breadcrumb.Item>

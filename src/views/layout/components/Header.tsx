@@ -19,46 +19,31 @@ export default (props: IProps) => {
                 <Col lg={4} md={5} sm={24} xs={24}>
                     <a id="logo">
                         <img alt="logo" src="https://t.alipayobjects.com/images/rmsweb/T1B9hfXcdvXXXXXXXX.svg" />
-                        <span>Ant Design</span>
+                        <span>Knowledge</span>
                     </a>
                 </Col>
                 <Col lg={20} md={19} sm={0} xs={0}>
                     <Button className="header-lang-button" ghost size="small" key="lang">
-                        English
+                        Login
+        </Button>
+                    <Button className="header-lang-button" ghost size="small" key="lang">
+                        Register
         </Button>
                     <Menu mode="horizontal" defaultSelectedKeys={['home']} id="nav" key="nav">
                         <Menu.Item key="home">
-                            首页
+                            Home
           </Menu.Item>
                         <Menu.Item key="docs/spec">
-                            指引
+                            Companies
           </Menu.Item>
                         <Menu.Item key="docs/react">
-                            组件
+                            About Us
           </Menu.Item>
                         <Menu.Item key="docs/pattern">
-                            模式
+                            Contact
           </Menu.Item>
-                        <Menu.Item key="docs/resource">
-                            资源
-          </Menu.Item>
-                        <Menu.Item key="pro">
-                            <a
-                                href="http://pro.ant.design"
-                                className="header-link"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                PRO
-              <span style={{
-                                    display: 'inline-block', position: 'relative', top: -2, width: 18,
-                                }}
-                                >
-                                    <Badge dot />
-                                </span>
-                            </a>
-                        </Menu.Item>
-                    </Menu>                </Col>
+                    </Menu>
+                </Col>
             </Row>
         </header>
     )
