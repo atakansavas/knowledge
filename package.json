@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "antd": "^4.1.2",
     "axios": "^0.19.2",
+    "clsx": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
@@ -35,11 +36,14 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^16.9.34",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
     "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
-    "@types/react-router-dom": "^5.1.4"
+    "@types/react-router-dom": "^5.1.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-messages": "^2.0.4",
+    "webpack-rtl-plugin": "^2.0.0"
   }
 }

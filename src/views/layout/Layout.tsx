@@ -10,8 +10,8 @@ export default () => {
 
     return (
         <>
-            <Header />
-            <Content style={{ padding: '0 50px' }}>
+            <Header WhiteHeader={false} />
+            {/* <Content style={{ padding: '0 50px' }}>
                 <Breadcrumb style={{ margin: '16px 0' }}>
                     <Breadcrumb.Item>Home</Breadcrumb.Item>
                     <Breadcrumb.Item>List</Breadcrumb.Item>
@@ -19,7 +19,7 @@ export default () => {
                 </Breadcrumb>
                 <div className="site-layout-content">Content</div>
             </Content>
-            <Footer />
+            <Footer /> */}
         </>
 
     );
